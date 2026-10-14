@@ -351,6 +351,12 @@ Database setup varies by version. Follow the command output and current document
 
 ### Check availability
 ```bash
+
+sudo apt update
+sudo apt install postgresql
+sudo systemctl enable --now postgresql
+sudo systemctl status postgresql
+
 sudo apt update
 apt-cache policy armitage
 ```
